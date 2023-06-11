@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: lightcyan;
+    font-size: 23px;
+    height: 60px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+  
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width:400px;
+    margin-right: 250px;
+    margin-top: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    margin: 28px;
+   
+}
+
+li{
+    padding: 14px 0px;
+}
+
+
+@media all and (max-width:480px){
+    nav{
+        flex-direction: column;
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#special{
+    margin-left: 20px;
+}
+
+#special:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+    color: darkcyan;
+}
+
+#logo{
+    margin-right: 500px;
+    padding: 10px;
+}
+
+#container1{
+    height: 800px;
+    width: 1518px;
+     background-image: url('./hero4.png'); 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+
+ }  
+
+h3{
+    color: black;
+}
+
+figure{
+
+     
+
+    padding:200px;
+}
+
+#trade{
+    font-style: italic;
+    font-size: 45px;
+}
+
+#Super{
+    font-style: italic;
+    font-size: 65px;
+}
+
+#ON{
+    font-style: italic;
+    font-size: 65px;
+}
+
+#save{
+    font-style: italic;
+    font-size: 20px;
+}
+
+#button{
+    border-radius: 70px; 
+    width: 70px;
+   margin-top: 15px;
+   margin-left: 100px;
+   color: green;
+   background-color: lightcyan;
+}
+
+#button:hover{
+    cursor: pointer;
+
+}
